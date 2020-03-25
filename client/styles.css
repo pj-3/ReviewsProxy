@@ -1,35 +1,47 @@
 body{
-    display: grid;
-    grid-template-columns: 1fr;
+    /* display: grid;
+    /* grid-template-columns: 1fr 1fr;
 
     grid-template-areas:  'a a'
-                          'b b'
+                          'b c'
                           'd d'
-                          'e e';
-                    
+                          'e e'; */
+/*                     
     grid-gap: 30px;
-    padding: 20px;
+    padding: 20px; */ 
     font-family: 'Quicksand', sans-serif;
 }
 
+#wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 50px 50px;
+    grid-gap: 100px;
+}
 
 #HeaderImage{
-    grid-area: a;
+    width: 100%;
+    height: auto;
 }
 #Description{
-    grid-area: b;
+ 
     padding: 10px;
+    width: 100%;
 }
 #Reservations{
-    grid-area: c;
+    margin:50px 50px;
+    padding:50px 50px;
+   
 }
 #Reviews{
-    grid-area: d;
+     
+    margin: 50px;
+    
 
 }
 #Related{
-    grid-area: e;
-    align-items: center;
+
+    margin: 50px;
 }
 
 #allHouses{
